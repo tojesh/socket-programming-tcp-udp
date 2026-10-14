@@ -1,0 +1,17 @@
+protocol,size_label,size_bytes,median_time_s,median_throughput_MBps,retransmissions,integrity_ok
+TCP,1 KB,1024,0.000872,1.174,0,true
+UDP (0% loss),1 KB,1024,0.003657,0.280,0,true
+UDP (1% loss),1 KB,1024,0.001695,0.604,0,true
+UDP (5% loss),1 KB,1024,0.002869,0.357,0,true
+TCP,100 KB,102400,0.004686,21.852,0,true
+UDP (0% loss),100 KB,102400,0.015644,6.546,0,true
+UDP (1% loss),100 KB,102400,0.011784,8.689,0,true
+UDP (5% loss),100 KB,102400,0.310653,0.330,5,true
+TCP,1 MB,1048576,0.002461,426.008,0,true
+UDP (0% loss),1 MB,1048576,0.033617,31.192,0,true
+UDP (1% loss),1 MB,1048576,0.542655,1.932,8,true
+UDP (5% loss),1 MB,1048576,2.598445,0.404,42,true
+TCP,10 MB,10485760,0.025812,406.239,0,true
+UDP (0% loss),10 MB,10485760,0.276552,37.916,0,true
+TCP,50 MB,52428800,0.036235,1446.930,0,true
+UDP (0% loss),50 MB,52428800,1.283911,40.835,0,true
